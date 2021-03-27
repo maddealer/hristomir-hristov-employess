@@ -1,0 +1,38 @@
+.containerTable {
+  height: 400px;
+  width: 100%;
+  margin: 0 auto;
+  direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.MuiDataGrid-root .MuiDataGrid-main {
+  width: 100%;
+  margin: 0 auto;
+}
+.MuiDataGrid-footer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.inContainerTable {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+  width: 60vw;
+  margin: auto;
+  margin-top: 50px;
+}
+[data-field="id1"] {
+  background-color: rgb(196, 196, 196);
+  color: rgb(255, 255, 255);
+}
+[data-field="project"] {
+  background-color: rgb(196, 196, 196);
+  color: rgb(255, 255, 255);
+}
+h3 {
+  color: rgb(80, 80, 80);
+}
